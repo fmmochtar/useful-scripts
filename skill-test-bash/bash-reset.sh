@@ -3,8 +3,6 @@
 
 echo "[ Bakmie's simple bash for resetting configuration ]"
 echo 
-echo -e "enter the desirable hostname: " 
-read NEWHOSTNAME
 # begin variable configuration
 NEWHOSTNAME=netlab-skill-1; export NEWHOSTNAME;
 
@@ -26,11 +24,7 @@ apt purge nginx -y
 echo 
 echo "[ Checking active ports ]"
 echo
-echo "[ HTTP ]"
-netstat -npl | grep 80
-echo 
-echo "[ FTP ]"
-netstat -npl | grep 21
-echo
 echo "[ SSH ]"
 netstat -npl | grep 22
+echo
+history -c
