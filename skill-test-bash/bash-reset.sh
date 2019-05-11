@@ -27,4 +27,7 @@ echo
 echo "[ SSH ]"
 netstat -npl | grep 22
 echo
+echo "[ Clearing latest bash history ]"
 history -c
+rm /root/.bash_history
+rm /home/netlab/.bash_history
