@@ -2,5 +2,8 @@
 
 Berisi skrip bash untuk keperluan auto-config karena males ngetik banyak (lol).
 
-# WARNING
+## main purpose
+
+Easier check for hostnames, hosts, and interface configurations.
+
 
